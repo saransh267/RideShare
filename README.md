@@ -16,16 +16,22 @@ The project is set up on 3 AWS EC2 instances:
 
 3.  Orchestrator instance
 	It contains the following containers:
+	
 	-orchestrator
 	  It has database read/write APIs, crash slave and container list APIs, auto scaling mechanism, zookeeper functionality and docker-sdk (spawning containers dynamically).
+	
 	-master
 	  It performs the database write operations.
+	
 	-slave
 	  It performs the database read operations.
+	
 	-shared_db
 	  We are using this to make the database persistent and sharable among all slaves.
+	
 	-rabbitmq
 	  It provides AMQP functionality.
+	
 	-zookeeper
 	  It provides high availability by keeping watch on the ‘/Workers/’ path which has the z-nodes of the slave containers.
 
