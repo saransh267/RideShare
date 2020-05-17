@@ -3,12 +3,12 @@ Details of setup:
 The project is set up on 3 AWS EC2 instances:
 	
 1.  Users instance
-	-It contains the users container which has all the users APIs for ex. add user, view users, delete user etc.
-	-It gets the request from the user and redirects it to the orchestrator APIs.
+    -It contains the users container which has all the users APIs for ex. add user, view users, delete user etc.
+    -It gets the request from the user and redirects it to the orchestrator APIs.
 
 2.  Rides instance
-	-It contains the rides container which has all the rides APIs for ex. add ride, view rides, join ride, delete ride etc.
-	-It gets the request from the user and redirects it to the orchestrator APIs.
+    -It contains the rides container which has all the rides APIs for ex. add ride, view rides, join ride, delete ride etc.
+    -It gets the request from the user and redirects it to the orchestrator APIs.
 
 3.  Orchestrator instance
 	It contains the following containers:
