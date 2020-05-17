@@ -1,0 +1,7 @@
+Load balancer : CC-Rideshare-1938598602.us-east-1.elb.amazonaws.com    
+
+CC_Users : ec2-54-198-202-185.compute-1.amazonaws.com     54.198.202.185
+
+CC_Rides : ec2-54-209-105-162.compute-1.amazonaws.com     54.209.105.162
+
+sudo docker-compose up --build
